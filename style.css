@@ -1,0 +1,17 @@
+.board {
+  display: grid;
+  grid-template: repeat(3, 110px) / repeat(3, 110px);
+  justify-content: center;
+  justify-items: space-around;
+  align-items: center;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  border: solid 1px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 80px;
+}
